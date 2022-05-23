@@ -1,0 +1,15 @@
+﻿#include <iostream>
+#include <stdlib.h>
+using namespace std;
+int main()
+{
+    char nString;
+    cout << "Enter your double:\n";
+    cin >> nString;
+    char end;
+    double number;
+    number = strtod(nString, end);
+    cout << "Double = " << number << endl;
+
+    return 0;
+}
